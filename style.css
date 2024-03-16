@@ -1,0 +1,748 @@
+
+*{
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-bar {
+  display: flex;
+  background-color:#D9D9D9;   
+  width :100%;
+  justify-content: center;
+  padding: 11px;
+}
+
+.nav-content {
+  font-weight: 500;
+  width: 119px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav-content:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.title{
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+
+.container{
+  /* background-color: #000000; */
+  margin-inline: 130px;
+  margin-block: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.soldier-box {
+  display: flex;
+  align-items:flex-end;
+  flex-direction: row;
+  border-radius: 20px;;
+  background-color: #d5ffdd;
+  width: 490px;
+  height: 180px;
+}
+
+.soldier {
+  flex: 0.8;
+  display: flex;
+  flex-direction: column;
+}
+
+.soldier button {
+  width: 240px;
+  height: 37px;
+  margin-bottom: 10px;
+  border: 3px solid transparent;
+  border-radius: 15px;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: #399349;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.soldier button:hover {
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.font0{
+  font-size: 32px; 
+  font-weight: 500; 
+  margin-bottom: -10px
+}
+
+.font1{
+  font-size: 14px; 
+  font-weight: 500; 
+  margin-bottom: 50px;
+}
+
+.left-bottom{
+  flex: 0.8;
+  display: flex;
+  flex-direction: row;
+}
+
+.fisher{
+  margin-top: 32px;
+  display: flex;
+  border-radius: 20px;;
+  background-color: #FFF4DC;
+  width: 235px;
+  height: 180px;
+}
+
+.fisher img{
+  margin-top: 10px;
+  margin-left: 2rem;
+}
+
+.fisher button{
+  width: 173px;
+  height: 37px;
+  margin-left: -176px;
+  border: 3px solid transparent;
+  font-weight: 400;
+  border-radius: 15px;
+  font-size: 1rem;
+  background-color: #e29a00;
+  color: white;
+  position: relative;
+  z-index: 1;
+  margin-top: 140px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+
+}
+
+.fisher button:hover {
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.hostess{
+  margin-top: 32px;
+  display: flex;
+  border-radius: 20px;;
+  background-color: #FFCED7;
+  width: 235px;
+  height: 180px;
+}
+
+.hostess img{
+  margin-top: 10px;
+  margin-left: 2.5rem;
+}
+
+.hostess button{
+  width: 173px;
+  height: 37px;
+  margin-left: -176px;
+  border: 3px solid transparent;
+  font-weight: 400;
+  border-radius: 15px;
+  font-size: 1rem;
+  background-color: #FF5573;
+  color: white;
+  position: relative;
+  z-index: 1;
+  margin-top: 140px;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+
+}
+
+.hostess button:hover {
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.photograher {
+  margin-top: 32px;
+  margin-left: 26px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;;
+  background-color: #E2F2FF;
+  width: 230px;
+  height: 392px;
+}
+
+.photograher img {
+  width: 160px;
+  margin-top: 30px;
+  margin-left: 32px;
+}
+
+.photograher button{
+  width: 150px;
+  margin-left: 40px;
+  border: 3px solid transparent;
+  font-weight: 400;
+  border-radius: 15px;
+  font-size: 1rem;
+  background-color: #3279AF;
+  color: white;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+
+}
+
+.photograher button:hover {
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.font3 {
+  font-size: 20px; 
+  text-align: center; 
+  font-weight: 500;
+  margin-left: -6px;
+}
+
+.font4 {
+  font-size: 12px; 
+  text-align: center; 
+  font-weight: 500; 
+  margin-top: -20px; 
+  margin-left: 42px; 
+  margin-bottom: 20px; 
+  width: 140px;
+}
+
+.right {
+  width: 500px;
+  height: 612px;
+  margin-left: 30px;
+  border-radius: 20px;
+}
+
+.docpitist-box {
+  display: flex;
+  flex-direction: column;
+  background-color: #F4F4F4;
+  border-radius: 20px;
+  width: 500px;
+  height: 392px;
+  padding: 40px;
+}
+
+.doctor {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #D8D6C1;
+  border-width: 1px;
+  width: 423px;
+  height: 96px;
+}
+
+.pilot, .scientist {
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #D8D6C1;
+  border-width: 1px;
+  width: 423px;
+  height: 96px;
+  margin-top: 20px;
+}
+
+.doctor img, .pilot img, .scientist img {
+  width: 70px;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+.font5 {
+  font-size: 20px; 
+  margin-top: -70px; 
+  margin-left: 90px; 
+  font-weight: 500;
+}
+
+.doctor button, .pilot button, .scientist button {
+  display: flex;
+  justify-content: center;
+  width: 150px;
+  margin-left: 85px;
+  margin-top: -12px;
+  border: 2px solid transparent;
+  font-weight: 300;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  background-color: #D8D6C1;
+  color: white;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.doctor button:hover, .pilot button:hover, .scientist button:hover {
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+.astrace-box {
+  display: flex;
+  flex-direction: row;
+  background-color: #F2F2F2;
+  width: 500px;
+  height: 180px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.racer, .astronaut {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px ;
+}
+
+.racer img, .astronaut img {
+  width: 120px;
+  height: 120px;
+  margin-top: 30px;
+}
+
+.font6 {
+  font-size: 15px;
+  margin-top: 60px; 
+  font-weight: 500;
+}
+
+.racer button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 96px;
+  margin-left: -80px;
+  width: 100px;
+  height: 55px;
+  border: 3px solid transparent;
+  font-weight: 400;
+  border-radius: 15px;
+  font-size: 1rem;
+  background-color: #D8D6C1;
+  color: white;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.astronaut button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 96px;
+  margin-left: -70px;
+  width: 100px;
+  height: 55px;
+  border: 3px solid transparent;
+  font-weight: 400;
+  border-radius: 15px;
+  font-size: 1rem;
+  background-color: #D8D6C1;
+  color: white;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.racer button:hover, .astronaut button:hover {
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+@media (max-width: 425px) {
+  .nav-bar {
+    order: 1;
+    z-index: 2;
+    width:  100%;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 29px 0;
+    bottom: 0px;
+  }
+
+  .nav-content {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+  
+  .container{
+    margin-block: 0px;
+    margin-inline: 0px;
+    width: 319px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .left {
+    display: flex;
+    margin-left: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;   
+  }
+  
+  .soldier-box {
+    width: 289px;
+    height: 299px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .soldier {
+    align-items: center;
+  }
+  
+  .soldier-box img {
+    margin-top: -70px;
+  }
+  
+  .soldier button {
+    display: flex;
+    width: 210px;
+    height: 45px;
+    margin-top: -160px ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #399349;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }
+  
+  .font0 {
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  
+  .font1 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .left-bottom {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .fisher{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;;
+    background-color: #FFF4DC;
+    width: 289px;
+    height: 221px;
+  }
+  
+  .fisher img {
+    width: fit-content;
+    margin-left: 55px;
+    margin-bottom: -196px;
+  }
+  
+  .fisher button{
+    display: flex;
+    width: 210px;
+    height: 45px;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #e29a00;
+    color: white;
+    z-index: 1;
+    margin-top: 140px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }    
+  
+  .hostess{
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;;
+    background-color: #FFCED7;
+    width: 289px;
+    height: 221px;
+  }
+  
+  .hostess img {
+    width: 197px;
+    margin-top: 8px;
+    margin-left: 46px;
+    margin-bottom: -204px;
+  }
+  
+  .hostess button{
+    display: flex;
+    width: 210px;
+    height: 45px;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #FF5573;
+    color: white;
+    z-index: 1;
+    margin-top: 140px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }    
+  
+  .photograher {
+    margin: 0;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;;
+    width: 289px;
+    height: 314px;
+  }
+  
+  .photograher img {
+    width: 230px;
+    margin-top: -40px;
+    margin-right: 30px;
+      
+  }
+
+  .font3 {
+    margin-left: 2px;
+  }    
+  
+  .photograher button {
+    display: flex;
+    width: 210px;
+    height: 45px;
+    margin-top: -152px ;
+    margin-right: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #3279AF;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }
+  
+  .font4 {
+    font-size: 12px; 
+    text-align: center; 
+    font-weight: 500; 
+    margin-top: -20px; 
+    margin-left: 0; 
+    margin-bottom: 20px; 
+    width: 140px;
+  }
+  
+  .right {
+    display: flex;
+    margin-left: 60px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;   
+  }
+  
+  .docpitist-box {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 0;
+    margin-top: 560px;
+    padding: 30px;
+    width: 425px;
+    height: 900px;
+  }    
+  
+  .doctor, .pilot, .scientist {
+    background-color: #E9E8E2;
+    border-radius: 20px;
+    border-style: none;
+    border-color: none;
+    border-width: 0;
+    width: 289px;
+    height: 211px;
+    margin-top: 30px;
+  }
+  
+  .doctor img, .pilot img, .scientist img {
+    width: 200px;
+    margin-left: 46px;
+    margin-bottom: -192px;
+  }
+  
+  .doctor button, .pilot button, .scientist button {
+    display: flex;
+    width: 210px;
+    height: 45px;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #CAC8B3;
+    color: white;
+    z-index: 1;
+    margin-top: 200px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }
+  
+  .font5 {
+    font-size: 0px; 
+  }
+  
+  .astrace-box {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 0;
+    margin-top: 20px;
+    height: 500px;
+  }
+  
+  .racer {
+    background-color: #FFDBC5;
+    border-radius: 20px;
+    border-style: none;
+    border-color: none;
+    border-width: 0;
+    width: 289px;
+    height: 211px;
+    margin-left: 0;
+  }
+  
+  .astronaut {
+    background-color: #8FC5ED;
+    border-radius: 20px;
+    border-style: none;
+    border-color: none;
+    border-width: 0;
+    width: 289px;
+    height: 211px;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-bottom: 90px;
+  }
+  
+  .racer img, .astronaut img {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    margin-left: 46px;
+    margin-top: 10px;
+  }
+  
+  .racer button {
+    display: flex;
+    width: 210px;
+    height: 45px;
+    margin-left: -206px;
+    margin-top: 156px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #E36415;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }
+  
+  .racer button:hover {
+    text-decoration: underline;
+    font-weight: 400;
+  }
+  
+  .astronaut button {
+    display: flex;
+    width: 210px;
+    height: 45px;
+    margin-left: -206px;
+    margin-top: 156px;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: #275E87;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+  }
+  
+  .astronot button:hover {
+    text-decoration: underline;
+    font-weight: 400;
+  }
+  
+  .font6 {
+    font-size: 0px; 
+  }
+}
